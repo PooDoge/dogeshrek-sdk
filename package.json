@@ -1,7 +1,7 @@
 {
   "name": "@baguette-exchange/sdk",
   "license": "MIT",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "🛠 An SDK for building applications on top of Baguette.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -22,8 +22,8 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@openzeppelin/cli": "^2.8.2",
     "@baguette-exchange/contracts": "^1.0.1",
+    "@openzeppelin/cli": "^2.8.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
