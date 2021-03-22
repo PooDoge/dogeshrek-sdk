@@ -19,14 +19,15 @@
     "build": "tsdx build",
     "start": "tsdx watch",
     "test": "tsdx test",
-    "prepublishOnly": "tsdx build"
+    "prepublishOnly": "tsdx build",
+    "prepare": "tsdx build"
   },
   "dependencies": {
     "@baguette-exchange/contracts": "^1.0.1",
     "@openzeppelin/cli": "^2.8.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
-    "jsbi": "^3.1.1",
+    "jsbi": "^3.1.4",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3",
     "toformat": "^2.0.0"
