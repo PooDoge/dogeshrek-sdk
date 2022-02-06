@@ -5,7 +5,8 @@ export type BigintIsh = JSBI | bigint | string
 
 export enum ChainId {
   FUJI = 43113,
-  AVALANCHE = 43114
+  AVALANCHE = 43114,
+  CRYPTOSEALS = 6942069,
 }
 
 export enum TradeType {
@@ -21,10 +22,15 @@ export enum Rounding {
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.FUJI]: '0xBB6e8C136ca537874a6808dBFC5DaebEd9a57554',
-  [ChainId.AVALANCHE]: '0x3587B8c0136c2C3605a9E5B03ab54Da3e4044b50'
+  [ChainId.AVALANCHE]: '0x3587B8c0136c2C3605a9E5B03ab54Da3e4044b50',
+  [ChainId.CRYPTOSEALS]: '0x1b55417301ba66e2E53E82B28EF87FeEd98663b7',
 }
 
-export const INIT_CODE_HASH = '0x81dbf51ab39dc634785936a3b34def28bf8007e6dfa30d4284c4b8547cb47a51'
+export const INIT_CODE_HASH: { [chainId in ChainId]: string } = {
+  [ChainId.FUJI]: '0x81dbf51ab39dc634785936a3b34def28bf8007e6dfa30d4284c4b8547cb47a51',
+  [ChainId.AVALANCHE]: '0xff99ac007cf1fdec4433d14d805e534a66720236eeec1657964ea15adacd258b',
+  [ChainId.CRYPTOSEALS]: '0x81dbf51ab39dc634785936a3b34def28bf8007e6dfa30d4284c4b8547cb47a51',
+}
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
