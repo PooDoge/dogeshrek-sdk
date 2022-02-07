@@ -58,5 +58,6 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 
 export const WAVAX = {
   [ChainId.FUJI]: new Token(ChainId.FUJI,'0xd00ae08403B9bbb9124bB305C09058E32C39A48c',18,'WAVAX','Wrapped AVAX'),
-  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE,'0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',18,'WAVAX','Wrapped AVAX')
+  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE,'0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',18,'WAVAX','Wrapped AVAX'),
+  [ChainId.CRYPTOSEALS]: new Token(ChainId.CRYPTOSEALS,'0x2b601C1FA15750045bf776632Da53166782016b0',18,'WCSHP','Wrapped CSHP'),
 }
