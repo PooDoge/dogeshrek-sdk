@@ -27,8 +27,8 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
 }
 
 export const INIT_CODE_HASH: { [chainId in ChainId]: string } = {
-  [ChainId.FUJI]: '0x81dbf51ab39dc634785936a3b34def28bf8007e6dfa30d4284c4b8547cb47a51',
-  [ChainId.AVALANCHE]: '0xff99ac007cf1fdec4433d14d805e534a66720236eeec1657964ea15adacd258b',
+  [ChainId.FUJI]: '0xff99ac007cf1fdec4433d14d805e534a66720236eeec1657964ea15adacd258b',
+  [ChainId.AVALANCHE]: '0x81dbf51ab39dc634785936a3b34def28bf8007e6dfa30d4284c4b8547cb47a51',
   [ChainId.CRYPTOSEALS]: '0x81dbf51ab39dc634785936a3b34def28bf8007e6dfa30d4284c4b8547cb47a51',
 }
 
