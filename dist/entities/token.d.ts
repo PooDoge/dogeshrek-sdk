@@ -28,5 +28,4 @@ export declare const WAVAX: {
     43113: Token;
     43114: Token;
     2000: Token;
-    6942069: Token;
 };
