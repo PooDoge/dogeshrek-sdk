@@ -1,8 +1,8 @@
 {
-  "name": "@baguette-exchange/sdk",
+  "name": "dogeshrek-sdk",
   "license": "MIT",
   "version": "1.1.9",
-  "description": "🛠 An SDK for building applications on top of Baguette.",
+  "description": "🛠 An SDK for building applications on top of Dogeshrek",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -10,8 +10,8 @@
   ],
   "repository": "https://github.com/PooDoge/dogeshrek-sdk",
   "keywords": [
-    "baguette",
-    "avalanche"
+    "dogeshrek",
+    "dogechain"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
