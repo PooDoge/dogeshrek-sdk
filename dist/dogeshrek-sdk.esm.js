@@ -370,7 +370,7 @@ function Currency(decimals, symbol, name) {
  * The only instance of the base class `Currency`.
  */
 
-Currency.CAVAX = /*#__PURE__*/new Currency(18, 'AVAX', 'Avalanche');
+Currency.CAVAX = /*#__PURE__*/new Currency(18, 'WDOGE', 'Wrapped Doge');
 var CAVAX = Currency.CAVAX;
 
 var _WAVAX;
