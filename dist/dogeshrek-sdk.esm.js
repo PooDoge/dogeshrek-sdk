@@ -436,7 +436,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WAVAX = (_WAVAX = {}, _WAVAX[ChainId.FUJI] = /*#__PURE__*/new Token(ChainId.FUJI, '0xd00ae08403B9bbb9124bB305C09058E32C39A48c', 18, 'WAVAX', 'Wrapped AVAX'), _WAVAX[ChainId.AVALANCHE] = /*#__PURE__*/new Token(ChainId.AVALANCHE, '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7', 18, 'WAVAX', 'Wrapped AVAX'), _WAVAX[ChainId.DOGECHAIN] = /*#__PURE__*/new Token(ChainId.DOGECHAIN, '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101', 18, 'WDOGE', 'Wrapped DOGE'), _WAVAX);
+var WAVAX = (_WAVAX = {}, _WAVAX[ChainId.FUJI] = /*#__PURE__*/new Token(ChainId.FUJI, '0xd00ae08403B9bbb9124bB305C09058E32C39A48c', 18, 'WAVAX', 'Wrapped AVAX'), _WAVAX[ChainId.AVALANCHE] = /*#__PURE__*/new Token(ChainId.AVALANCHE, '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7', 18, 'WAVAX', 'Wrapped AVAX'), _WAVAX[ChainId.DOGECHAIN] = /*#__PURE__*/new Token(ChainId.DOGECHAIN, '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101', 18, 'WAVAX', 'Wrapped DOGE'), _WAVAX);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
