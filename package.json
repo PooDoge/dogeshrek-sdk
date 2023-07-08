@@ -1,7 +1,7 @@
 {
   "name": "dogeshrek-sdk",
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "🛠 An SDK for building applications on top of Dogeshrek",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
